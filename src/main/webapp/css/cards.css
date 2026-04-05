@@ -1,0 +1,40 @@
+.place-card,
+.spot-card{
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.12);
+    padding:15px;
+    margin:15px;
+    width:280px;
+    display:inline-block;
+    vertical-align:top;
+    transition:0.3s;
+}
+
+.place-card:hover,
+.spot-card:hover{
+    transform:translateY(-6px);
+}
+
+.place-card img,
+.spot-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+.place-card h3,
+.spot-card h4{
+    margin-top:10px;
+}
+
+.place-card a,
+.spot-card a{
+    display:inline-block;
+    margin-top:10px;
+    background:#e27528;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:8px;
+}

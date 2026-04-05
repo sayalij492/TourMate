@@ -1,0 +1,36 @@
+.admin-container{
+    margin-left:260px;
+    padding:100px 30px;
+}
+
+.sidebar{
+    width:240px;
+    position:fixed;
+    top:80px;
+    left:0;
+    bottom:0;
+    background:#3b2214;
+    padding:20px;
+}
+
+.sidebar a{
+    color:#fff;
+    display:block;
+    padding:10px;
+    margin-bottom:8px;
+    border-radius:6px;
+}
+
+.sidebar a:hover{
+    background:#5a371f;
+}
+
+.stat-box{
+    background:#fff;
+    border-radius:15px;
+    padding:20px;
+    margin:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    display:inline-block;
+    width:30%;
+}
